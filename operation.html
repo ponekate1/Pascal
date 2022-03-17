@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Операторы write, writeln, read, readln.</title>
+	<link rel="shortcut icon" href="wolf.ico">
+</head>
+<body style="background-color: #E0FFFF">
+<h1 style="position: :relative; text-align: center; background-color: #90EE90">Операторы write, writeln, read, readln.</h1>
+<hr>
+<p style="position :relative; left: 3%; width: 97%;">
+	Теперь поговорим о вводе данных. Мы уже познакомились с оператором write, но существуют также и другие. Writeln, к примеру, используется для вывода данных с переходом на новую строку. Зачем? Ну, например чтобы дать какой-нибудь переменной значение:</p>
+
+<p style="position :relative; left: 3%; width: 97%;">program Programma1;
+var A:integer;
+begin
+writeln('A= '); read(A); {ввести значение и «прикрепить» его к переменной A}
+write(A); {Вывести значение переменной A}
+end.</p>
+
+<p style="position :relative; left: 3%; width: 97%;">Как вы видите, я вкратце описал каждое действие в фигурных скобках. Это называется комментарий. В дальнейшем я также буду использовать их для объяснений.
+В этом примере для присваивания к переменной значения, введенного с клавиатуры используется оператор read. Мы видим, что при выполнении он прочитал строку в переменную А. А другой оператор, readln работает по другому. Используя его, мы можем сразу ввести нужную строку, и она прочитается в переменную:</p>
+
+<p style="position :relative; left: 3%; width: 97%;">program Programma1;
+var A:integer;
+begin
+readln(A);
+write('A= ', A); {строка будет выглядеть так: «А= ' введенное значение А ' „}
+end.</p>
+
+<p style="position :relative; left: 3%; width: 97%;">Теперь, когда вы немного знаете о вводе данных, поговорим о том, какие могут быть данные, и как их обрабатывать.
+
+</p>
+</body>
+</html>
